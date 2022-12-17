@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    margin: 0ch;
+}
+#myVideo {
+    width: 175px;
+    height: 140px;
+    border-radius: 50%;
+    border: 3px solid;
+}
+body{
+    width: 100vw;
+    height: 99vh;
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+.main_box{
+    position: absolute;
+    display: flex;
+    width: 850px;
+    top: 20%;
+    left: 10%;
+    height: 350px;
+}
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    color: #8dda85;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #8dda85;
+}
+header h3{
+    margin: auto;
+}
+header img{
+    width: 175px;
+    height: 140px;
+    border-radius: 50%;
+}
+.frame
+{
+    margin-top: 10px;
+    width: 100%;
+    height: 80%;
+    padding: 10px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    
+}
+.box {
+    position: absolute;
+    width: 470px;
+    height: 480px;
+    border-radius: 30px;
+    border: 3px solid #8dda85;
+    box-shadow: -1px 1px 4px 0px #43ff5b8c;
+    overflow: hidden;
+    left: 30%;
+    margin: auto;
+}
+.header {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 12px auto;
+}
+ .login,.Register{
+    width: 40%;
+    border: 2px solid #8dda85;
+    height:47.4px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 1px #43ff5b8c;
+    background: transparent;
+    cursor: pointer;
+    color: #8dda85;
+}
+#loginn{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+    position: relative;
+    
+}
+#registerition{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
+    position: relative;
+
+}
+form label{
+    color: #697768;
+    margin-bottom: 3px;
+}
+form .email ,form .password,form .confirm_password ,form .first_name,form .last_name{
+    width: 90%;
+    color: #697768;
+    box-shadow: 0px 0px 4px 1px #43ff5b8c;
+    border: 2px solid #8dda85;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 8px;
+    
+}
+span{
+    width: 70%;
+    height: 27px;
+}
+form a{
+    width: 80%;
+    margin:auto;
+    text-decoration: none;
+    color: #697768;
+    font-size: large;
+}
+form button{
+    color: #8dda85;
+    width: 40%;
+    height: 30px;
+    border: 2px solid #8dda85;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 1px #43ff5b8c;
+    background: transparent;
+    cursor: pointer;
+    margin: auto;
+}
+form .check_box{
+    width: 80%;
+    height: 20px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-flow: row;
+    color: #697768;
+}
+form .check_box input{
+    margin-right: 5px;
+    cursor: pointer;
+}
+form .check_box input:checked{
+    background-color: #8dda85;
+}
+form .check_box input:checked ~ h4{
+    color: #8dda85;
+}
+form h4{
+    font-size: smaller;
+}
+.footer{
+    display: flex;
+    width: 50%;
+    height: 50px;
+    justify-content: space-around;
+    margin: auto;
+}
+.footer a{
+    text-decoration: none;
+    color: #8dda85;
+}
+.footer a:hover{
+    color: #697768;
+}
+form a:hover{
+    color: #8dda85;
+}
+form input:hover{
+    background-color: #8dda85;
+    border: #697768;
+    color: aliceblue;
+}
+form button:hover{
+    background-color: #8dda85;
+    border: #697768;
+    color: aliceblue;
+}
+.adress{
+    width: 80%;
+    height: 70px;
+    color: #697768;
+    box-shadow: 0px 0px 4px 1px #43ff5b8c;
+    border: 2px solid #8dda85;
+    height: 35px;
+    padding: 5px;
+    margin-bottom: 8px;
+}
+@media (max-width :600px) 
+ {  .box{
+        left: 20px;
+        width:90%;
+    }
+    .main_box{
+        left: 0%;
+    }
+    header h3{
+        font-size: smaller;
+    }
+    form .email ,form .password,form .confirm_password ,form .first_name,form .last_name{
+        width: 300px;
+    }
+    .adress{
+        width: 300px;
+    }
+    form a {
+    margin: auto -3%;
+    
+}
+    form button {
+    margin: auto 18%;
+}
+.footer {
+    margin: auto 14%;
+}
+
+} 
